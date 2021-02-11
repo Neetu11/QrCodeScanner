@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Secure Scan</string>
+    <string name="verify">Verify</string>
+    <string name="powered">Powered by </string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="register">Register</string>
+    <string name="report">Report</string>
+    <string name="address">Address</string>
+    <string name="city">City</string>
+    <string name="pincode">Pincode</string>
+    <string name="mobile">Mobile</string>
+    <string name="remark">Remark</string>
+    <string name="date_of_purchase">Date Of Purchase</string>
+
+</resources>

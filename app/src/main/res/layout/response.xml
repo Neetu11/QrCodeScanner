@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/relative_popup_recharge"
+    android:layout_margin="@dimen/DP8"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/SP18"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:padding="@dimen/DP8"
+        android:id="@+id/message"
+        android:text="Transaction Status"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <ImageView
+        android:id="@+id/img_status_recharge"
+        android:layout_width="87dp"
+        android:layout_height="@dimen/DP80"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/order_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="Order Id"
+        android:textSize="@dimen/SP14"
+        android:padding="@dimen/DP6"/>
+
+    <TextView
+        android:id="@+id/txt_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="Status"
+        android:textSize="@dimen/SP14"
+        android:padding="@dimen/DP6"/>
+
+<!--    <TextView-->
+<!--        android:id="@+id/txt_status_recharge"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:textSize="@dimen/SP15"-->
+<!--        android:textStyle="bold"-->
+<!--        android:gravity="center"-->
+<!--        android:textAllCaps="true"-->
+<!--        android:textColor="@color/black"/>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/SP15"
+        android:text=""
+        android:id="@+id/part_number"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:visibility="gone"
+        android:id="@+id/register_layout"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_Register"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:layout_margin="@dimen/DP10"/>
+
+        <Button
+        android:id="@+id/scan_again"
+        android:layout_width="0dp"
+         android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Scan Again"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:layout_margin="@dimen/DP10"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:id="@+id/report_layout"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_report"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Report"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:layout_margin="@dimen/DP10"/>
+
+        <Button
+            android:id="@+id/close"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Close"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:layout_margin="@dimen/DP10"/>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DP_60"
+        android:hint="@string/name"
+        android:layout_margin="@dimen/DP_10"
+        android:id="@+id/name"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/DP_10"
+        android:hint="@string/email"
+        android:layout_height="@dimen/DP_60"
+        android:id="@+id/email"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/DP_10"
+        android:layout_height="@dimen/DP_60"
+        android:hint="@string/mobile"
+        android:id="@+id/mobile"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/DP_10"
+        android:hint="@string/address"
+        android:layout_height="@dimen/DP_60"
+        android:id="@+id/address"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/DP_10"
+        android:hint="@string/city"
+        android:layout_height="@dimen/DP_60"
+        android:id="@+id/city"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/DP_10"
+        android:hint="@string/pincode"
+        android:layout_height="@dimen/DP_60"
+        android:id="@+id/pin"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DP_60"
+        android:layout_margin="@dimen/DP_10"
+        android:hint="@string/date_of_purchase"
+        android:id="@+id/date_of_purchase"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/DP_10"
+        android:text="@string/register"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:layout_height="@dimen/DP_60"
+        android:id="@+id/register"/>
+
+</LinearLayout>
